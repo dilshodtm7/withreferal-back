@@ -147,7 +147,7 @@ WHERE user_tg = $1;`,referal)
     }
 
     async updateUser(user_tg,question) {
-        const data = await this.#db.fetch(`UPDATE users SET question = $1,balance_winnie = balance_winnie::numeric + 8000 WHERE user_tg = $2 RETURNING user_tg`,question,user_tg)
+        const data = await this.#db.fetch(`UPDATE users SET question = $1,balance_winnie = balance_winnie::numeric + 4500 WHERE user_tg = $2 RETURNING user_tg`,question,user_tg)
         return data
     }
 

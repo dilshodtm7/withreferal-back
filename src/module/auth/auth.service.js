@@ -18,7 +18,7 @@ class LoginService {
             if (retrieve && retrieve.length > 0 && user_tg === retrieve[0].user_tg) {
                 const complated = await this.#_loginModel.getcompletedtasks(user_tg);
                 const uncomplated = await this.#_loginModel.getTasks(user_tg);
-                const tournament = await this.#_loginModel.getAll();
+                const tournament = await this.#_loginModel.getTournament();
                 const referer = await this.#_loginModel.getMyReferals(user_tg);
                 return {
                     tournament,
@@ -44,7 +44,7 @@ class LoginService {
                 const newTaskUser = await this.#_loginModel.newTaskUser(user_tg);              
                 const complated = await this.#_loginModel.getcompletedtasks(user_tg);
                 const uncomplated = await this.#_loginModel.getTasks(user_tg);
-                const tournament = await this.#_loginModel.getAll();
+                const tournament = await this.#_loginModel.getTournament();
                 const referer = await this.#_loginModel.getMyReferals(user_tg);
                 return {
                     tournament,

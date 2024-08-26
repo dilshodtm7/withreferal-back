@@ -68,11 +68,12 @@ ORDER BY balance_winnie DESC`)
     async getTasks (user_tg) {
         const data = await this.#db.fetch(`SELECT 
     t.id, 
-    t.title, 
+    t.title,
+    t.link,
     t.amount, 
     t.status, 
-    t.image,
-    t.link
+    t.image
+    
 FROM 
     tasks t
 LEFT JOIN 
@@ -92,10 +93,10 @@ WHERE
         const data = await this.#db.fetch(`SELECT 
     t.id, 
     t.title, 
-    t.amount, 
+    t.amount,
+    t.link,
     t.status, 
-    t.image,
-    t.link
+    t.image
 FROM 
     mytasks mt
 JOIN 

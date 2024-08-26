@@ -45,7 +45,7 @@ bot.start((ctx) => {
         { url: imageUrl }, // You can also use a local file path or a file ID here
         {
           caption: 'Бот запустился! Нажмите на кнопку ниже для запуска приложения!',
-          reply_markup: { inline_keyboard: buttons }
+          inline_keyboard: buttons 
         }
       );
   });

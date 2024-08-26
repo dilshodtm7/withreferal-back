@@ -60,7 +60,7 @@ export class LoginModel {
     async getTournament(){
         const data = await this.#db.fetch(`SELECT *
 FROM users
-ORDER BY balance_winnie DESC LIMIT 10`)
+ORDER BY balance_winnie DESC`)
         return data
     }
 

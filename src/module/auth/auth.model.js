@@ -71,7 +71,8 @@ ORDER BY balance_winnie DESC`)
     t.title, 
     t.amount, 
     t.status, 
-    t.image
+    t.image,
+    t.link
 FROM 
     tasks t
 LEFT JOIN 
@@ -93,7 +94,8 @@ WHERE
     t.title, 
     t.amount, 
     t.status, 
-    t.image
+    t.image,
+    t.link
 FROM 
     mytasks mt
 JOIN 

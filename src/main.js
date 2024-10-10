@@ -10,7 +10,7 @@ const newToken ='7159558560:AAHAj8AamuB7i7hmML768_pt62-EB69KJYI'
 const bot = new Telegraf(token);
 
 const app = express();
-const webAppUrl = 'https://withreferal.vercel.app';
+const webAppUrl = 'https://withreferal.vercel.app/';
 const Community = 'https://t.me/winnie_coin';
 const imageUrl = 'https://tgram-ten.vercel.app/win.png';
 const support = 'https://t.me/winnie_coin';

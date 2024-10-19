@@ -15,9 +15,9 @@ const Community = 'https://t.me/winnie_coin';
 const imageUrl = 'https://tgram-ten.vercel.app/win.png';
 const support = 'https://t.me/winnie_coin';
 const forAds = 'https://t.me/winnie_coin';
-const Youtube = 'https://t.me/winnie_coin';
-const twitter = 'https://t.me/winnie_coin';
-const instagram = 'https://t.me/winnie_coin';
+const Youtube = 'https://www.youtube.com/@WinnieCoin';
+const twitter = 'https://twitter.com/WinnieCoin_io';
+const instagram = 'https://www.instagram.com/winniecoin.io/';
 
 const PORT = 9090;
 

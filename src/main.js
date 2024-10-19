@@ -6,7 +6,6 @@ import { Telegraf, Markup } from 'telegraf';
 import { PostgresModel } from "../src/db/db.js";  // Assuming this is your database model
 
 const token = '7122357451:AAEFq46iHnMDxoTS-1tRqqcVClEEVd12g5E';
-const newToken ='7159558560:AAHAj8AamuB7i7hmML768_pt62-EB69KJYI'
 const bot = new Telegraf(token);
 
 const app = express();
@@ -15,8 +14,8 @@ const Community = 'https://t.me/winnie_coin';
 const imageUrl = 'https://tgram-ten.vercel.app/win.png';
 const support = 'https://t.me/winnie_coin';
 const forAds = 'https://t.me/winnie_coin';
-const Youtube = 'https://www.youtube.com/@WinnieCoin';
-const twitter = 'https://twitter.com/WinnieCoin_io';
+const Youtube = 'https://www.youtube.com/@WinnieCoin/';
+const twitter = 'https://twitter.com/WinnieCoin_io/';
 const instagram = 'https://www.instagram.com/winniecoin.io/';
 
 const PORT = 9090;

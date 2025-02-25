@@ -7,7 +7,7 @@ export class LoginModel {
     }
 
     async getAll(){
-        const data = await this.#db.fetch(`SELECT * FROM login `)
+        const data = await this.#db.fetch(`SELECT * FROM winnie`)
         return data
     }
 
